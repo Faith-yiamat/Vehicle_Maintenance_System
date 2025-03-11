@@ -96,20 +96,31 @@ The API follows RESTful principles and provides the following endpoints:
 POST /api/tasks/
 
 {
+
   "vehicle": "ABC123",
+  
   "task_type": "oil_change",
+  
   "description": "Changed engine oil and replaced filter"
+  
 }
 
 Response:
 
 {
+
   "id": 1,
+  
   "vehicle": "ABC123",
+  
   "task_type": "oil_change",
+  
   "description": "Changed engine oil and replaced filter",
+  
   "status": "pending",
+  
   "created_at": "2025-03-09T12:34:56Z"
+  
 }
 
 #### Retrieve all maintenance tasks
@@ -120,12 +131,19 @@ Response:
 [
   {
     "id": 1,
+    
     "vehicle": "ABC123",
+    
     "task_type": "oil_change",
+    
     "description": "Changed engine oil and replaced filter",
+    
     "status": "pending",
+    
     "created_at": "2025-03-09T12:34:56Z"
+    
   }
+  
 ]
 
 #### Retrieve a specific maintenance task
