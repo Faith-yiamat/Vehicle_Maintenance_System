@@ -52,8 +52,9 @@ Git
 ### Virtual Environment (venv)
 #### 1. Clone the Repository
 
-$ git clone https://github.com/yourusername/vehicle-maintenance-api.git
-$ cd vehicle-maintenance-api
+$ git clone https://github.com/Faith-yiamat/Vehicle_Maintenance_System.git
+
+$ cd Vehicle_Maintenance_System
 
 #### 2. Create and Activate a Virtual Environment
 
